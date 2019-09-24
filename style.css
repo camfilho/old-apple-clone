@@ -33,8 +33,6 @@ nav {
   border-top-right-radius: 4px 4px;
   border-bottom-right-radius: 4px 4px;
   border-bottom-left-radius: 4px 4px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.296875) 0px 1px 2px;
-  box-shadow: rgba(0, 0, 0, 0.296875) 0px 1px 2px;
   height: 36px;
   background-size: cover;
   background-image: url("https://archive.fo/UW4oR/959dc37b1b6692997a6d3ab19862dd59e5e83ecf.png");
@@ -54,9 +52,13 @@ nav {
   margin-top: 10%;
   margin-right: 5%;
   margin-left: 5%;
-  font-size: 20px;
   color: white;
   font-size: 15px;
+}
+
+a {
+  color: rgb(0, 136, 204);
+  text-decoration: none;
 }
 
 header a {
@@ -135,11 +137,6 @@ footer {
   padding: 2% 2%;
   margin-bottom: 1%;
   margin-top: 1%;
-}
-
-a {
-  color: rgb(0, 136, 204);
-  text-decoration: none;
 }
 
 footer div {
