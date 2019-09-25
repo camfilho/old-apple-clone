@@ -71,7 +71,6 @@ nav div input {
   background: rgb(177, 177, 177) url("./icons/search-solid.png") no-repeat scroll 9px 2px;
   border-color: #999;
   border-radius: 9px;
-  margin: 0px 0px;
   background-size: 14px auto;
   color: black;
   padding-left: 30px;
@@ -87,10 +86,6 @@ header a img {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-header nav div:hover {
-  background-color: rgb(148, 145, 145);
 }
 
 header nav div a {
@@ -186,4 +181,8 @@ footer div ul li {
 
 li + li::before {
   content: " |  ";
+}
+
+header nav div:hover {
+  background-color: rgb(148, 145, 145);
 }
